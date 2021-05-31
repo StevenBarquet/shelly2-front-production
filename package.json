@@ -1,0 +1,26 @@
+{
+  "name": "shelly",
+  "version": "1.0.0",
+  "description": "Front prototype server",
+  "main": "index.js",
+  "author": "Steven Barquet",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "npm",
+    "express",
+    "frontend",
+    "api",
+    "rest",
+    "restfull"
+  ],
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "open": "^8.2.0"
+  }
+}
