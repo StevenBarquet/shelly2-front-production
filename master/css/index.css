@@ -28890,6 +28890,27 @@ div.ant-typography-edit-content.ant-typography-rtl {
   color: #ffa400;
   font-size: 18px;
 }
+.order-item {
+  background-color: #ffffff;
+  width: 96%;
+  margin: 5px auto 5px auto;
+  border-radius: 3px;
+}
+.order-item h1 {
+  font-size: 20px;
+  color: #c221af;
+}
+.order-item h4 {
+  color: #474747;
+  font-size: 14px;
+}
+.order-item h4 span {
+  font-size: 14px;
+  color: #c221af;
+}
+.order-item section {
+  width: 70px;
+}
 .store-product-info-container {
   display: block;
   width: 70%;
