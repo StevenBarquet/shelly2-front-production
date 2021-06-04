@@ -28653,6 +28653,10 @@ div.ant-typography-edit-content.ant-typography-rtl {
   font-size: 18px;
   margin: 15px auto 15px auto;
 }
+.store-content-container h4 span {
+  color: #ffa400;
+  margin: 0px 5px 0px 5px;
+}
 .store-content-container h1 {
   position: relative;
   font-size: 30px;
@@ -29363,6 +29367,10 @@ p span {
 }
 .modal-message {
   font-size: 18px;
+}
+.container94 {
+  width: 94%;
+  margin: 10px 3% 10px 3%;
 }
 .alta {
   overflow: hidden;
