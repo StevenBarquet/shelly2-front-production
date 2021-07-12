@@ -27997,6 +27997,58 @@ div.ant-typography-edit-content.ant-typography-rtl {
 .destacados-cont .color {
   background-color: #ccc;
 }
+.admin-banner-container-desktop {
+  position: relative;
+}
+.admin-banner-container-desktop .click-area {
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 3;
+}
+.admin-banner-container-desktop span {
+  width: 70%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 15%;
+  font-size: 36px;
+  text-align: center;
+}
+.admin-banner-container-mobil {
+  position: relative;
+}
+.admin-banner-container-mobil .click-area {
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 3;
+}
+.admin-banner-container-mobil span {
+  width: 36%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 32%;
+  font-size: 26px;
+  text-align: center;
+}
+.admin-banner-img {
+  width: 100%;
+  height: 270px;
+}
 .orden-container {
   width: 90%;
   margin: 15px 5% 25px 5%;
@@ -29115,6 +29167,32 @@ div.ant-typography-edit-content.ant-typography-rtl {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.form-close-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.12s all ease;
+}
+.form-close-button svg {
+  font-size: 24px;
+  color: #ffffff;
+}
+.form-close-button:hover {
+  box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+  margin-top: 1px;
+  cursor: pointer;
+}
+.form-close-button:hover svg {
+  color: #ffba39;
+}
+.form-close-button:focus {
+  outline: 0;
+}
+.form-close-button:active {
+  transform: scale(0.9);
 }
 .ant-carousel .slick-slide {
   text-align: center;
