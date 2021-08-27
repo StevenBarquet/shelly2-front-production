@@ -25022,10 +25022,12 @@ div.ant-typography-edit-content.ant-typography-rtl {
   outline: #ffffff solid 1px;
 }
 .footer-cont {
+  display: block;
   width: 100%;
+  margin-top: 70px;
+  bottom: 0px;
   background-color: #474747;
   color: #ffffff;
-  margin-top: 70px;
   text-align: center;
 }
 .footer-cont h2 {
@@ -25219,6 +25221,15 @@ div.ant-typography-edit-content.ant-typography-rtl {
   border: 1px solid #84e52a;
   border-radius: 10px;
   margin: 8px 5px 0px 5px;
+}
+.products-cont {
+  display: block;
+  width: 92%;
+  margin: 15px auto 15px auto;
+  padding: 12px;
+}
+.products-cont .ant-tabs-tab-btn {
+  font-size: 16px;
 }
 @font-face {
   font-family: 'Questrial';
