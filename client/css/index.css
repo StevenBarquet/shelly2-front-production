@@ -24992,6 +24992,60 @@ div.ant-typography-edit-content.ant-typography-rtl {
   margin: 10px auto 10px auto;
   display: block;
 }
+.date-box section {
+  margin-top: 15px;
+  margin-left: 4px;
+  background-color: #666666a4;
+  height: 140px;
+  min-width: 100px;
+  max-width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 62px;
+  font-weight: bold;
+}
+.date-box span {
+  margin-top: 8px;
+  margin-left: 4px;
+  background-color: #666666a4;
+  height: 30px;
+  min-width: 100px;
+  max-width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.date-box-movil section {
+  margin-top: 15px;
+  margin-left: 4px;
+  background-color: #666666a4;
+  height: 140px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 54px;
+  font-weight: bold;
+}
+.date-box-movil span {
+  margin-top: 8px;
+  margin-left: 4px;
+  background-color: #666666a4;
+  height: 30px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
 .nav-div {
   width: 100%;
   margin-bottom: 35px;
@@ -25366,6 +25420,35 @@ div.ant-typography-edit-content.ant-typography-rtl {
 .cover-cont-big {
   width: 380px;
   height: 380px;
+}
+.in-dev-page {
+  padding: 25px;
+}
+.in-dev-page h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 38px;
+}
+.in-dev-page h2 {
+  margin-top: -10px;
+  color: #ffa400;
+  line-height: 100%;
+  text-align: center;
+}
+.in-dev-page p {
+  color: #f2d9a6;
+  text-align: start;
+  font-size: 20px;
+}
+.in-dev-page p span {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.in-dev-page img {
+  width: 80%;
+  display: block;
+  margin: 10px auto 10px auto;
 }
 @font-face {
   font-family: 'Questrial';
