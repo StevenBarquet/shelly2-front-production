@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Front prototype server",
   "main": "index.js",
-  "author": "Steven Barquet",
+  "author": "Cristian Ponce",
   "license": "ISC",
   "keywords": [
     "node",
